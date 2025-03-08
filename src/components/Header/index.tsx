@@ -6,7 +6,9 @@ import React from 'react';
 import clsx from 'clsx';
 import { Menu, X } from 'lucide-react';
 import { usePathname } from 'next/navigation';
+import Image from 'next/image';
 
+const menuItems = ['About Us', 'Services', 'Products'];
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -24,7 +26,8 @@ export default function Navbar() {
 
   return (
     <>
-      <div><button>allenmuhani@gmail.com</button><button>+254791725651</button></div>
+      {/* TODO: See what to do with this. */}
+      {/* <div><button>allenmuhani@gmail.com</button><button>+254791725651</button></div> */}
       <nav
         className={clsx(
           'fixed top-0 left-0 w-full transition-all duration-300 z-50',
@@ -33,13 +36,29 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="text-xl font-bold text-dark-blue-600">Next Paints</div>
+            <div className="text-xl font-bold text-dark-blue-600">
+              <Link href={'/'}>
+                <Image src="/images/logo/logo.png"
+                  alt="logo"
+                  width={120}
+                  height={25}></Image>
+              </Link>
+
+            </div>
             <div className="hidden md:flex space-x-8">
-              {['About Us', 'Services', 'Products',].map((item) => (
+              <Link href={`/`} className='text-2xl font-bold'>
+                <span className="text-dark-blue-600 hover:text-red-600 cursor-pointer">Home</span>
+              </Link>
+              {menuItems.map((item) => (
                 <Link key={item} href={`${item.toLowerCase().replace(/ /g, '_')}`} className='text-2xl font-bold'>
                   <span className={clsx("text-dark-blue-600 hover:text-red-600 cursor-pointer", pathname === item.toLowerCase().replace(/ /g, '_') ? 'underline' : '')}>{item}</span>
                 </Link>
               ))}
+            </div>
+
+            <div className="hidden md:flex  flex items-center justify-end pr-16 lg:pr-0">
+              {/* TODO: change this to button and style it with a different unique style to capture attention */}
+              <button>Order</button>
             </div>
 
             {/* Menu button on the right of the screen on small devices */}
@@ -54,7 +73,7 @@ export default function Navbar() {
         {/* Mobile Menu */}
         {isOpen && (
           <div className="md:hidden bg-white shadow-lg p-4 space-y-4">
-            {['Home', 'About Us', 'Our Services', 'Contact Us',].map((item) => (
+            {menuItems.map((item) => (
               <Link key={item} href={`#${item.toLowerCase().replace(/ /g, '-')}`}>
                 <span
                   className="block text-gray-800 hover:text-blue-500 cursor-pointer"
@@ -64,6 +83,8 @@ export default function Navbar() {
                 </span>
               </Link>
             ))}
+            {/* Menu button on the right of the screen on small devices */}
+            <button>Order</button>
           </div>
         )}
       </nav>
