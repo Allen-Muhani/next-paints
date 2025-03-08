@@ -15,8 +15,6 @@
   
 }
 
-
-
 @theme inline {
   --color-background: var(--white);
   --color-foreground: var(--red);
