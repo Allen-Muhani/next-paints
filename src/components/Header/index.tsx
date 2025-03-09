@@ -8,7 +8,7 @@ import { Menu, X } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 
-const menuItems = ['About Us', 'Services', 'Products'];
+const menuItems = ['About Us', 'Services', 'Products', 'FAQs'];
 
 function OrderButton() {
 
