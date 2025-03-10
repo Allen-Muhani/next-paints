@@ -1,19 +1,19 @@
-import { Metadata } from "next";
-import ProductGrid from "./products.grid";
 import ContactUsCard from "@/components/ContactUs";
+import FAQ from "@/components/FAQs";
 import Footer from "@/components/Footer";
+import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Products | Free Next.js Template for Startup and SaaS",
+  title: "About Us",
   description: "This is About Page for Startup Nextjs Template",
   // other metadata
 };
 
-const ProductsPage = () => {
+const AboutUsPage = () => {
   return (
     <>
       <div className="py-10">
-        <ProductGrid></ProductGrid>
+        <FAQ></FAQ>
       </div>
       <ContactUsCard></ContactUsCard>
       <Footer></Footer>
@@ -21,4 +21,4 @@ const ProductsPage = () => {
   );
 };
 
-export default ProductsPage;
+export default AboutUsPage;
