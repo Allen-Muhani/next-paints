@@ -1,6 +1,7 @@
 import React from "react";
 import { Mail, Phone } from "lucide-react";
 import Image from 'next/image';
+import { FaWhatsapp, FaInstagram, FaFacebook, FaTwitter, FaTiktok } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -48,6 +49,13 @@ const Footer = () => {
                     <p className="mt-2 flex items-center text-gray-400"><Phone className="mr-2" /> +256 (0)770 857 931</p>
                     {/* Add Kenyan phone number */}
                     <p className="mt-2 flex items-center text-gray-400"><Phone className="mr-2" /> +256 (0)770 857 931 </p>
+                    <div className="flex space-x-4 mt-4">
+                        <a href="https://wa.me/1234567890" className="text-green-400 hover:text-green-500"><FaWhatsapp size={24} /></a>
+                        <a href="#" className="text-pink-500 hover:text-pink-600"><FaInstagram size={24} /></a>
+                        <a href="#" className="text-blue-500 hover:text-blue-600"><FaFacebook size={24} /></a>
+                        <a href="#" className="text-blue-400 hover:text-blue-500"><FaTwitter size={24} /></a>
+                        <a href="#" className="text-black hover:text-gray-700"><FaTiktok size={24} /></a>
+                    </div>
                 </div>
             </div>
         </footer>

@@ -8,6 +8,8 @@
   --dark-blue-bg: #0A192F;
   --dark-blue-pr: #0A192F;
   --white: #FFFFFF;
+  --color-blueish: #c7d0f8;
+  --color-redish: #f1c4c8;
   --red: #E63946;
 
   --background: var(--white);
@@ -22,6 +24,8 @@
   --color-foreground: var(--red);
   --color-primary: var(--dark-blue); /* Dark Blue */
   --color-secondary: var(--red);
+  --color-blueish: #c7d0f8;
+  --color-redish: #f1c4c8;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --color-text: var(--white); 
