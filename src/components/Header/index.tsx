@@ -63,7 +63,7 @@ export default function Navbar() {
                 <span className="text-dark-blue-100 hover:text-red-600 cursor-pointer">Home</span>
               </Link>
               {menuItems.map((item) => (
-                <Link key={item} href={`${item.toLowerCase().replace(/ /g, '_')}`} className='text-2xl font-bold'>
+                <Link key={item} href={`/${item.toLowerCase().replace(/ /g, '_')}`} className='text-2xl font-bold'>
                   <span className={clsx("text-dark-blue-600 hover:text-red-600 cursor-pointer", pathname === item.toLowerCase().replace(/ /g, '_') ? 'underline' : '')}>{item}</span>
                 </Link>
               ))}
