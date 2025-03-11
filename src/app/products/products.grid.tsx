@@ -1,81 +1,8 @@
 import React from "react";
 import ProductCard from "./product.card";
+import { product_data } from './product_data/product.data';
 
-export type Product = {
-    id: Number;
-    name: String;
-    uri: String;
-    description: String;
-    technical_specs: String;
-    image: String;
-}
-
-const products: Array<Product> = [
-    {
-        id: 1,
-        name: "Product 1",
-        description: "This is a great product that you will love!",
-        image: "https://via.placeholder.com/400",
-        uri: '',
-        technical_specs: ''
-    },
-    {
-        id: 2,
-        name: "Product 2",
-        description: "High quality and best performance in the market.",
-        image: "https://via.placeholder.com/400",
-        uri: '',
-        technical_specs: ''
-    },
-    {
-        id: 3,
-        name: "Product 3",
-        description: "An amazing product that meets all your needs.",
-        image: "https://via.placeholder.com/400",
-        uri: '',
-        technical_specs: ''
-    },
-    {
-        id: 4,
-        name: "Product 4",
-        description: "Affordable and reliable for everyday use.",
-        image: "https://via.placeholder.com/400",
-        uri: '',
-        technical_specs: ''
-    },
-    {
-        id: 5,
-        name: "Product 5",
-        description: "An excellent choice for professionals.",
-        image: "https://via.placeholder.com/400",
-        uri: '',
-        technical_specs: ''
-    },
-    {
-        id: 6,
-        name: "Product 6",
-        description: "Top-rated product by our customers.",
-        image: "https://via.placeholder.com/400",
-        uri: '',
-        technical_specs: ''
-    },
-    {
-        id: 7,
-        name: "Product 7",
-        description: "Built for durability and long-lasting use.",
-        image: "https://via.placeholder.com/400",
-        uri: '',
-        technical_specs: ''
-    },
-    {
-        id: 8,
-        name: "Product 8",
-        description: "The perfect solution for your needs.",
-        image: "https://via.placeholder.com/400",
-        uri: '',
-        technical_specs: ''
-    },
-];
+const products = product_data;
 
 const ProductGrid = () => {
     return (
