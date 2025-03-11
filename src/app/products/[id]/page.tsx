@@ -4,8 +4,6 @@ import NumberedList from '../components/numbered_lists';
 import StyledTable from '../components/styled_table';
 import { product_data } from '../product_data/product.data';
 import Footer from '@/components/Footer';
-import { Product } from '../product_data/types';
-
 
 async function ProductPage({ params }: { params: { id: string } }) {
 
