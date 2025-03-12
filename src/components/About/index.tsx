@@ -9,7 +9,7 @@ export default function AboutUs() {
             {/* Left: Lottie Animation */}
             <div className="w-full md:w-1/2 flex justify-center">
                 {/* TODO: Update animation */}
-                <Lottie animationData={animationData} loop={true} className="w-150 h-130" />
+                <Lottie animationData={animationData} loop={false} className="w-150 h-130" />
             </div>
 
             {/* Right: About Content */}
