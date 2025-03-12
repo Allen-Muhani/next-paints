@@ -4,17 +4,16 @@ import { FaWhatsapp } from "react-icons/fa";
 const ContactUsCard = () => {
     return (
         <div className="flex justify-center flex-col p-6">
-            <h2 className="text-center text-3xl font-bold text-gray-800">Get in Touch or Make and Order</h2>
 
             <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-6 md:flex md:space-x-8">
                 {/* Contact Form Section */}
                 <div className="md:w-2/3 mt-6 md:mt-0">
-                    <h2 className="text-2xl font-bold text-gray-800">Send Us a Message</h2>
+                    <h2 className="text-2xl font-bold text-gray-800">Make and Order or Get in Touch with us</h2>
                     <form className="mt-4 space-y-4">
                         <input type="text" placeholder="Your Name" className="w-full p-2 border border-gray-300 rounded-lg" />
                         <input type="email" placeholder="Your Email" className="w-full p-2 border border-gray-300 rounded-lg" />
                         <input type="text" placeholder="Your Phone Number" className="w-full p-2 border border-gray-300 rounded-lg" />
-                        <textarea placeholder="Your Message / Quote Request" className="w-full p-2 border border-gray-300 rounded-lg" rows="4"></textarea>
+                        <textarea placeholder="Your Message / Quote Request" className="w-full p-2 border border-gray-300 rounded-lg" rows="3"></textarea>
                         <button type="submit" className="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600">Send Message</button>
                     </form>
                 </div>
@@ -22,7 +21,7 @@ const ContactUsCard = () => {
                 {/* Contact Info Section */}
                 <div className="md:w-1/3 justify-center flex-col p-6">
 
-                    <p className="text-gray-600 mt-2">We'd love to hear from you! Reach out to us through any of the following:</p>
+                    <p className="text-gray-600 mt-2 text-xl">We'd love to hear from you! Reach out to us through any of the following:</p>
                     <p className="mt-4 flex items-center text-gray-700"><Mail className="mr-2" /> email@example.com</p>
                     <p className="mt-2 flex items-center text-gray-700"><Phone className="mr-2" /> +123 456 7890</p>
                     <p className="mt-2 flex items-center text-gray-700"><Phone className="mr-2" /> +987 654 3210</p>

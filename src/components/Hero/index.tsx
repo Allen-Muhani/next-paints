@@ -19,7 +19,7 @@ export default function Hero() {
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
             Colour your world with <span className="text-4xl md:text-5xl font-bold text-red-700">Next Paints</span>
           </h1>
-          <p className="mt-4 text-lg text-gray-600">
+          <p className="mt-4 text-lg text-gray-600 text-xl">
             We provide top-quality solutions tailored to your needs. Join us and take your business to the next level.
           </p>
           <div className="mt-6 flex justify-center space-around flex-col space-y-4">

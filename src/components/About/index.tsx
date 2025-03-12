@@ -15,7 +15,7 @@ export default function AboutUs() {
             {/* Right: About Content */}
             <div className="w-full md:w-1/2 space-y-4 text-center md:text-left">
                 <h2 className="text-3xl font-bold text-gray-800">About Us</h2>
-                <p className="text-gray-600">
+                <p className="text-gray-600 text-xl">
                     {/* TODO: Update text */}
                     We are a passionate team dedicated to providing top-notch services in
                     our industry. Our mission is to deliver excellence through innovation

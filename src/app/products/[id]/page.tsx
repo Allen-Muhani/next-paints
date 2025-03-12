@@ -16,7 +16,7 @@ async function ProductPage({ params }: { params: { id: string } }) {
         <>
             <section className="container mx-auto p-6 max-w-6xl pt-35 flex items-center justify-center  flex-col">
                 <h1 className="text-5xl font-bold mb-4 text-red-700 text-center">{product?.name}</h1>
-                <p className="text-gray-700 mb-4 text-center">
+                <p className="text-gray-700 mb-4 text-center text-xl">
                     {product?.briefDescription}
                 </p>
                 <div className="flex flex-col md:flex-row items-center gap-6">
@@ -33,7 +33,7 @@ async function ProductPage({ params }: { params: { id: string } }) {
                     <div className="w-full md:w-2/3 lg:w-3/4 md:pl-6, lg:pl-12 pt-18">
 
 
-                        <p className="text-gray-700 mb-4">
+                        <p className="text-gray-700 mb-4 text-base">
                             {product?.description} </p>
 
                         {product?.sections.map((section) => (
@@ -41,7 +41,7 @@ async function ProductPage({ params }: { params: { id: string } }) {
                                 <h2 className="text-xl font-semibold mt-4 mb-2">{section.title}</h2>
 
                                 {section.description !== "" && section.type === "paragpraph" && (
-                                    <p className="text-gray-700 mb-4">{section?.description} </p>
+                                    <p className="text-gray-700 mb-4 text-base">{section?.description} </p>
                                 )}
 
                                 {section.iterations.length > 0 && section.type === "bullets" && (
@@ -57,7 +57,7 @@ async function ProductPage({ params }: { params: { id: string } }) {
                                 )}
 
                                 {section.footer !== "" && (
-                                    <p className="text-gray-700 mb-4">{section?.footer} </p>
+                                    <p className="text-gray-700 mb-4 text-xl">{section?.footer} </p>
                                 )}
 
                             </>

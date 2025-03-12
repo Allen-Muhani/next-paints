@@ -59,7 +59,7 @@ const FeaturesBenefits = () => {
                         >
                             <div className="mb-4">{feature.icon}</div>
                             <h3 className="text-xl font-bold text-orange-600">{feature.title}</h3>
-                            <p className="text-gray-700 mt-2">{feature.description}</p>
+                            <p className="text-gray-700 mt-2 text-xl">{feature.description}</p>
                         </motion.div>
                     ))}
                 </div>
