@@ -21,13 +21,13 @@ const WhyChooseUs = () => {
             <div className="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto py-10">
                 {/* Text Section */}
                 <div className="relative w-1/2 z-10">
-                    <p className="mt-4 text-gray-700 text">
+                    <p className="mt-4 text-gray-700 text text-xl">
                         Next Paints is a leader in premium coating solutions, delivering
                         innovation and quality for over two decades. Our eco-friendly
                         products bring vibrant colors, lasting durability, and a sustainable
                         approach to every project.
                     </p>
-                    <ul className="space-y-2 text-lg text-gray-900 pt-5">
+                    <ul className="space-y-2 text-lg text-gray-900 pt-5 pl-10">
                         {reasons.map((reason) => (
                             <li className="flex items-center gap-2">
                                 <CheckCircle className="text-orange-500" size={20} />

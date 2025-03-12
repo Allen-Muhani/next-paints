@@ -1,15 +1,15 @@
 import ContactUsCard from "@/components/ContactUs";
 import FAQ from "@/components/FAQs";
 import Footer from "@/components/Footer";
-import { Metadata } from "next";
+// import { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "About Us",
-  description: "This is About Page for Startup Nextjs Template",
-  // other metadata
-};
+// export const metadata: Metadata = {
+//   title: "About Us",
+//   description: "This is About Page for Startup Nextjs Template",
+//   // other metadata
+// };
 
-const AboutUsPage = () => {
+const FAQs = () => {
   return (
     <>
       <div className="py-10">
@@ -21,4 +21,4 @@ const AboutUsPage = () => {
   );
 };
 
-export default AboutUsPage;
+export default FAQs;

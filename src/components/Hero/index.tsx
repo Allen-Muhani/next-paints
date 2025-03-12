@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 import Lottie from "lottie-react";
 import Link from "next/link";
 import animationData from "../../../public/lottie_animations/painter_at_work.json";
