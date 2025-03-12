@@ -3,12 +3,9 @@ import React, { useState } from "react";
 import { FaPlus, FaMinus } from "react-icons/fa";
 
 const faqs = [
-    { question: "What is a cryptocurrency exchange?", answer: "A cryptocurrency exchange is a platform that allows users to buy, sell, and trade cryptocurrencies." },
-    { question: "What products does Binance provide?", answer: "Binance provides various crypto-related services including trading, staking, and lending." },
-    { question: "How to buy Bitcoin and other cryptocurrencies on Binance?", answer: "You can buy cryptocurrencies using fiat currency, credit/debit card, or peer-to-peer (P2P) trading." },
-    { question: "How to track cryptocurrency prices?", answer: "You can use Binance's price tracking tools or third-party websites like CoinMarketCap." },
-    { question: "How to trade cryptocurrencies on Binance?", answer: "Trading on Binance can be done through spot trading, futures trading, or margin trading." },
-    { question: "How to earn from crypto on Binance?", answer: "You can earn through staking, farming, and Binance Earn programs." },
+    { question: "What kind of coating products does next paints offer?", answer: "Next Paints offers a wide range of high-quality coating products, including interior and exterior paints, weather-resistant paints, eco-friendly coatings, and specialized finishes. Our products are designed to meet the unique needs of residential, commercial, and industrial applications." },
+    { question: "How does Next Paints ensure the quality of it`s producst?", answer: "We prioritize excellence in every step of our production process. By leveraging advanced technologies, strict quality control measures, and the expertise of our skilled team, Next Paints ensures that every product we deliver meets the highest standards of performance and durability." },
+    { question: "Are Next Paints products environmentaly friendly?", answer: "Yes, Next Paints is committed to sustainability. Our products are formulated with eco-conscious ingredients, and we use responsible manufacturing practices to minimize our environmental impact. We aim to provide customers with coating solutions that enhance their spaces while promoting a greener future." },
 ];
 
 const FAQ = () => {
@@ -32,7 +29,7 @@ const FAQ = () => {
                             {openIndex === index ? <FaMinus /> : <FaPlus />}
                         </button>
                         {openIndex === index && (
-                            <p className="mt-2 text-gray-600">{faq.answer}</p>
+                            <p className="mt-2 text-gray-600 text-xl">{faq.answer}</p>
                         )}
                     </div>
                 ))}

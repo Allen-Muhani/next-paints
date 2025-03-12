@@ -17,7 +17,7 @@ const WhyChooseUs = () => {
 
         <section className="flex flex-col items-center">
             {/* Lottie Background */}
-            <h2 className="text-4xl font-bold text-orange-600 pt-10">Why Choose Us</h2>
+            <h2 className="text-4xl font-bold text-orange-600 pt-10">Why Choose Us?</h2>
             <div className="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto py-10">
                 {/* Text Section */}
                 <div className="relative w-1/2 z-10">
