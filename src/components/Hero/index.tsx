@@ -1,18 +1,14 @@
 "use client";
 
-import { useEffect } from "react";
 import Lottie from "lottie-react";
 import Link from "next/link";
 import animationData from "../../../public/lottie_animations/painter_at_work.json";
 
 export default function Hero() {
 
-  useEffect(() => {
-
-  }, []);
 
   return (
-    <section className="relative w-full h-[80vh] flex items-center justify-between">
+    <section className="relative w-full h-[80vh] flex items-center justify-between bg-gray-100">
       <div className="container mx-auto px-6 lg:px-20 flex flex-col lg:flex-row items-center justify-center justify-around">
         {/* Left Content */}
         <div className="text-center lg:text-left max-w-xl">

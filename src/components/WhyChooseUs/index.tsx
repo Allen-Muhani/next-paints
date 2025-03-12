@@ -1,6 +1,6 @@
 import React from "react";
 import Lottie from "lottie-react";
-import animationData from "../../../public/lottie_animations/painter_at_work.json";
+import animationData from "../../../public/lottie_animations/why_us.json";
 import { CheckCircle } from "lucide-react";
 
 const reasons = [
@@ -15,12 +15,23 @@ const reasons = [
 const WhyChooseUs = () => {
     return (
 
-        <section className="flex flex-col items-center">
+        <section className="flex flex-col items-center bg-gray-100">
             {/* Lottie Background */}
             <h2 className="text-4xl font-bold text-orange-600 pt-10">Why Choose Us?</h2>
-            <div className="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto py-10">
+
+            <div className="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto">
+
+                {/* Image Section */}
+                <div className="relative w-1/3 flex justify-center z-10">
+                    <Lottie
+                        loop={false}
+                        animationData={animationData}
+                    // className="absolute top-0 left-0 w-full h-full opacity-20"
+                    />
+                </div>
+
                 {/* Text Section */}
-                <div className="relative w-1/2 z-10">
+                <div className="relative w-2/3 z-10">
                     <p className="mt-4 text-gray-700 text text-xl">
                         Next Paints is a leader in premium coating solutions, delivering
                         innovation and quality for over two decades. Our eco-friendly
@@ -37,18 +48,7 @@ const WhyChooseUs = () => {
                     </ul>
                 </div>
 
-                {/* Image Section */}
-                <div className="relative w-1/2 flex justify-center z-10">
-                    <Lottie
-                        animationData={animationData}
-                        className="absolute top-0 left-0 w-full h-full opacity-20"
-                    />
-                    <img
-                        src="/assets/question-man.png" // Replace with your image path
-                        alt="Confused man holding question mark"
-                        className="max-w-sm rounded-lg shadow-lg"
-                    />
-                </div>
+
             </div>
 
         </section>

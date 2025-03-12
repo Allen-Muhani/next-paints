@@ -1,7 +1,7 @@
 "use client";
 
 import Lottie from "lottie-react";
-import animationData from "../../../public/lottie_animations/painter_at_work.json";
+import animationData from "../../../public/lottie_animations/color_pallet.json";
 
 export default function AboutUs() {
     return (

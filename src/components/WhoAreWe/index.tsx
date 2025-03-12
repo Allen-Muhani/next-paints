@@ -8,8 +8,8 @@ const WhoAreWe = () => {
         <section className="flex flex-col items-center">
             {/* Lottie Background */}
             <h2 className="text-4xl font-bold text-orange-600 pt-10">Who are we?</h2>
+            
             <div className="flex flex-col items-right justify-between max-w-6xl mx-auto py-10">
-
                 <p className="mt-4 text-gray-700 text text-xl">
                     Next Paints is a brand manufactured by Next Paints Limited, which is an Organically Ugandan business established in Kampala, Uganda. From humble beginnings Next Paints has rooted itself in the Ugandan market as a significant player in the surface coatings industry, allowing us to serve customers from all over the country.
                 </p>
