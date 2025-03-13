@@ -9,9 +9,9 @@ const ProductCard = ({ product }: { product: Product }) => {
         // TODO: Remove random UUID
         <div className="bg-gray-100 shadow-lg rounded-lg p-5">
             <img
-                src={product.image.valueOf()}
+                src="/images/paint_thumbnails/Wall-Sheen-Silk-Emulsion-Paint-Bucket-thumb-300x300.png"
                 alt={product.name.valueOf()}
-                className="w-full h-40 object-cover rounded-lg mb-4"
+                className="w-full h-60 object-cover rounded-lg mb-4"
             />
             <h3 className="text-xl font-semibold">{product.name}</h3>
             <p className="text-gray-600 mt-2">{product.briefDescription}</p>
