@@ -9,7 +9,7 @@ export type ProductSection = {
   description: String;
   iterations: Array<String>;
   table: Array<TableData>;
-  type: "paragpraph" | "bullets" | "numbered" | "";
+  type: "paragraph" | "bullets" | "numbered" | "";
   footer: String;
 };
 

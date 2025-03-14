@@ -43,7 +43,7 @@ async function ProductPage({ params }: { params: { id: string } }) {
                             <div key={`${index}-${uuid}`} className='ph-5'>
                                 <h2 className="text-xl font-semibold mt-4 mb-2">{section.title}</h2>
 
-                                {section.description !== "" && section.type === "paragpraph" && (
+                                {section.description !== "" && section.type === "paragraph" && (
                                     <p className="text-gray-700 mb-4 text-base">{section?.description} </p>
                                 )}
 
