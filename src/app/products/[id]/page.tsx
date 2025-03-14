@@ -23,7 +23,7 @@ async function ProductPage({ params }: { params: { id: string } }) {
                     {/* Image */}
                     <div className="w-full md:w-1/3 lg:w-1/4 flex self-start pt-20">
                         <img
-                            src="https://via.placeholder.com/400"
+                            src="/images/paint_thumbnails/Wall-Sheen-Silk-Emulsion-Paint-Bucket-thumb-300x300.png"
                             alt="Placeholder"
                             className="w-full rounded-lg shadow-lg "
                         />

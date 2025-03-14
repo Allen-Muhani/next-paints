@@ -6,4 +6,9 @@ export const product_data = [
   wall_sheen_silk_emulsion_paint,
   wall_sheen_silk_emulsion_paint,
   wall_sheen_silk_emulsion_paint,
+  wall_sheen_silk_emulsion_paint,
+  wall_sheen_silk_emulsion_paint,
+  wall_sheen_silk_emulsion_paint,
+  wall_sheen_silk_emulsion_paint,
+  wall_sheen_silk_emulsion_paint,
 ];
