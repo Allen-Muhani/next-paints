@@ -1,4 +1,4 @@
-import { EmailAddress, PhoneNumber1, PhoneNumber2, WhatsUpLink } from "@/utils/contacts";
+import { EmailAddress, PhoneNumber1, PhoneNumber2, WhatsUpLink } from "@/utils/constants/contacts";
 import { Mail, Phone } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 

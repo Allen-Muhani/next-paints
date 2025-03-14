@@ -2,7 +2,7 @@ import React from "react";
 import { Mail, Phone } from "lucide-react";
 import Image from 'next/image';
 import { FaWhatsapp, FaInstagram, FaFacebook, FaTwitter, FaTiktok } from "react-icons/fa";
-import { EmailAddress, PhoneNumber1, PhoneNumber2, WhatsUpLink } from "@/utils/contacts";
+import { EmailAddress, PhoneNumber1, PhoneNumber2, WhatsUpLink } from "@/utils/constants/contacts";
 
 const Footer = () => {
     return (
