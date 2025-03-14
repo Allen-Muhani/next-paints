@@ -85,7 +85,7 @@ export default function Navbar() {
         {isOpen && (
           <div className="md:hidden bg-white shadow-lg p-4 space-y-4">
             {menuItems.map((item) => (
-              <Link key={item} href={`#${item.toLowerCase().replace(/ /g, '-')}`} className='text-1xl font-bold'>
+              <Link key={item} href={`/${item.toLowerCase().replace(/ /g, '_')}`} className='text-1xl font-bold'>
                 <span
                   className="block text-gray-800 hover:text-blue-500 cursor-pointer"
                   onClick={() => setIsOpen(false)}
