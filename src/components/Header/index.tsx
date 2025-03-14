@@ -7,19 +7,17 @@ import clsx from 'clsx';
 import { Menu, X } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 import Image from 'next/image';
+import { WhatsUpLink } from '@/utils/constants/contacts';
 
 const menuItems = ['About Us', 'Services', 'Products', 'FAQs'];
 
 function OrderButton() {
 
-  const onClick = () => {
-
-  }
 
   return (
-    <>
-      <button className='bg-primary hover:bg-secondary text-white font-bold py-2 px-4 rounded-lg' onClick={onClick}>Order</button>
-    </>
+    <Link href={`${WhatsUpLink}`}>
+      <button className='bg-primary hover:bg-secondary text-white font-bold py-2 px-4 rounded-lg' >Order</button>
+    </Link>
   )
 }
 

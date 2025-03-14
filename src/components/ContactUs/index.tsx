@@ -1,3 +1,4 @@
+import { EmailAddress, PhoneNumber1, PhoneNumber2, WhatsUpLink } from "@/utils/constants/contacts";
 import { Mail, Phone } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 
@@ -22,11 +23,11 @@ const ContactUsCard = () => {
                 <div className="md:w-1/3 justify-center flex-col p-6">
 
                     <p className="text-gray-600 mt-2 text-xl">We'd love to hear from you! Reach out to us through any of the following:</p>
-                    <p className="mt-4 flex items-center text-gray-700"><Mail className="mr-2" /> info@nextpaints.co.ug</p>
-                    <p className="mt-2 flex items-center text-gray-700"><Phone className="mr-2" /> +123 456 7890</p>
-                    <p className="mt-2 flex items-center text-gray-700"><Phone className="mr-2" /> +987 654 3210</p>
+                    <p className="mt-4 flex items-center text-gray-700"><Mail className="mr-2" /> {EmailAddress}</p>
+                    <p className="mt-2 flex items-center text-gray-700"><Phone className="mr-2" /> {PhoneNumber1}</p>
+                    <p className="mt-2 flex items-center text-gray-700"><Phone className="mr-2" /> {PhoneNumber2}</p>
                     <a
-                        href="https://wa.me/1234567890"
+                        href={WhatsUpLink}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="mt-4 inline-flex items-center px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600"

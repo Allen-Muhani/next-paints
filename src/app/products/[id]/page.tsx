@@ -4,8 +4,11 @@ import NumberedList from '../components/numbered_lists';
 import StyledTable from '../components/styled_table';
 import { product_data } from '../product_data/product.data';
 import Footer from '@/components/Footer';
+import { randomUUID } from "crypto";
 
 async function ProductPage({ params }: { params: { id: string } }) {
+
+    const uuid = randomUUID().toLowerCase();
 
     // The await is necessary as it throws an error;
     const { id } = await params
@@ -36,8 +39,8 @@ async function ProductPage({ params }: { params: { id: string } }) {
                         <p className="text-gray-700 mb-4 text-base">
                             {product?.description} </p>
 
-                        {product?.sections.map((section) => (
-                            <>
+                        {product?.sections.map((section, index) => (
+                            <div key={`${index}-${uuid}`}>
                                 <h2 className="text-xl font-semibold mt-4 mb-2">{section.title}</h2>
 
                                 {section.description !== "" && section.type === "paragpraph" && (
@@ -60,7 +63,7 @@ async function ProductPage({ params }: { params: { id: string } }) {
                                     <p className="text-gray-700 mb-4 text-xl">{section?.footer} </p>
                                 )}
 
-                            </>
+                            </div>
                         ))}
                     </div>
                 </div>

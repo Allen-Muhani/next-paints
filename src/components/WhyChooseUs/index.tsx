@@ -13,6 +13,8 @@ const reasons = [
 ];
 
 const WhyChooseUs = () => {
+
+
     return (
 
         <section className="flex flex-col items-center bg-gray-100">
@@ -39,8 +41,8 @@ const WhyChooseUs = () => {
                         approach to every project.
                     </p>
                     <ul className="space-y-2 text-lg text-gray-900 pt-5 pl-10">
-                        {reasons.map((reason) => (
-                            <li className="flex items-center gap-2">
+                        {reasons.map((reason, index) => (
+                            <li key={`${index}-WhyChooseUs`} className="flex items-center gap-2">
                                 <CheckCircle className="text-orange-500" size={20} />
                                 {reason}
                             </li>

@@ -1,14 +1,14 @@
 import React from "react";
 import { CheckCircle } from "lucide-react";
 
-
 const WhoAreWe = () => {
+
     return (
 
         <section className="flex flex-col items-center">
             {/* Lottie Background */}
             <h2 className="text-4xl font-bold text-orange-600 pt-10">Who are we?</h2>
-            
+
             <div className="flex flex-col items-right justify-between max-w-6xl mx-auto py-10">
                 <p className="mt-4 text-gray-700 text text-xl text-left">
                     Next Paints is a brand manufactured by Next Paints Limited, which is an Organically Ugandan business established in Kampala, Uganda. From humble beginnings Next Paints has rooted itself in the Ugandan market as a significant player in the surface coatings industry, allowing us to serve customers from all over the country.
@@ -20,8 +20,8 @@ const WhoAreWe = () => {
                     Driven by an urge to excel, Next Paints Limited manufactures quality paints for all applications. Among the products the company manufactures are:
                 </p>
                 <ul className="space-y-2 text-lg text-gray-900 pt-5 pl-10 text-left">
-                    {["Decorative Paints", "Timber Finishes Primers", "Primers Thinners Adhesives"].map((reason) => (
-                        <li className="flex items-center gap-2">
+                    {["Decorative Paints", "Timber Finishes Primers", "Primers Thinners Adhesives"].map((reason, index) => (
+                        <li key={`${index}-WhoAreWe`} className="flex items-center gap-2">
                             <CheckCircle className="text-orange-500" size={20} />
                             {reason}
                         </li>
