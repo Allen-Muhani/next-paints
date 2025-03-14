@@ -2,6 +2,7 @@ import React from "react";
 import { Mail, Phone } from "lucide-react";
 import Image from 'next/image';
 import { FaWhatsapp, FaInstagram, FaFacebook, FaTwitter, FaTiktok } from "react-icons/fa";
+import { EmailAddress, PhoneNumber1, PhoneNumber2, WhatsUpLink } from "@/utils/contacts";
 
 const Footer = () => {
     return (
@@ -45,12 +46,12 @@ const Footer = () => {
                 <div>
                     <h3 className="text-lg font-semibold">Contact Us</h3>
 
-                    <p className="mt-2 flex items-center text-gray-400"><Mail className="mr-2" /> info@nextpaints.co.ug</p>
-                    <p className="mt-2 flex items-center text-gray-400"><Phone className="mr-2" /> +256 (0)770 857 931</p>
+                    <p className="mt-2 flex items-center text-gray-400"><Mail className="mr-2" /> {EmailAddress}</p>
+                    <p className="mt-2 flex items-center text-gray-400"><Phone className="mr-2" /> {PhoneNumber1}</p>
                     {/* Add Kenyan phone number */}
-                    <p className="mt-2 flex items-center text-gray-400"><Phone className="mr-2" /> +256 (0)770 857 931 </p>
+                    <p className="mt-2 flex items-center text-gray-400"><Phone className="mr-2" /> {PhoneNumber2} </p>
                     <div className="flex space-x-4 mt-4">
-                        <a href="https://wa.me/1234567890" className="text-green-400 hover:text-green-500"><FaWhatsapp size={24} /></a>
+                        <a href={WhatsUpLink} className="text-green-400 hover:text-green-500"><FaWhatsapp size={24} /></a>
                         <a href="#" className="text-pink-500 hover:text-pink-600"><FaInstagram size={24} /></a>
                         <a href="#" className="text-blue-500 hover:text-blue-600"><FaFacebook size={24} /></a>
                         <a href="#" className="text-blue-400 hover:text-blue-500"><FaTwitter size={24} /></a>

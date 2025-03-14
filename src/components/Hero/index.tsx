@@ -3,6 +3,7 @@
 import Lottie from "lottie-react";
 import Link from "next/link";
 import animationData from "../../../public/lottie_animations/painter_at_work.json";
+import { WhatsUpLink } from "@/utils/contacts";
 
 export default function Hero() {
 
@@ -20,7 +21,7 @@ export default function Hero() {
           </p>
           <div className="mt-6 flex justify-center space-around flex-col space-y-4">
 
-            <Link href="/order">
+            <Link href={`${WhatsUpLink}?text=Hello%2C%20I%27m%20interested%20in%20your%20paint%20products.%20Can%20you%20please%20provide%20more%20details%3F`}>
               <button className="px-6 py-3 bg-red-600 text-white font-semibold rounded-lg hover:bg-red-700 transition">
                 Order Now
               </button>
