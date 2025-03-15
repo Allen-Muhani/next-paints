@@ -1,12 +1,9 @@
 import React from "react";
 import { Product } from "./product_data/types";
 import Link from "next/link";
-import { randomUUID } from "crypto";
-
 
 const ProductCard = ({ product }: { product: Product }) => {
     return (
-        // TODO: Remove random UUID
         <div className="bg-gray-100 shadow-lg rounded-lg p-5">
             <img
                 src={product.image.valueOf()}
