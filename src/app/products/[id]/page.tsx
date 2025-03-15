@@ -6,7 +6,9 @@ import { product_data } from '../product_data/product.data';
 import Footer from '@/components/Footer';
 import { randomUUID } from "crypto";
 
-async function ProductPage({ params }: { params: { id: string } }) {
+type Params = Promise<{ id: string }>;
+
+async function ProductPage({ params }: { params: Params}) {
 
     const uuid = randomUUID().toLowerCase();
 
