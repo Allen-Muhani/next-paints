@@ -12,7 +12,7 @@ const ProductCard = ({ product }: { product: Product }) => {
             />
             <h3 className="text-xl font-semibold">{product.name}</h3>
             <p className="text-gray-600 mt-2">{product.briefDescription}</p>
-            <Link href={"products/" + product.uri}>
+            <Link href={"/products/" + product.uri}>
                 <button className="mt-4 px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-primary">
                     Read More
                 </button>
