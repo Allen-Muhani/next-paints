@@ -166,7 +166,7 @@ export const trowel_on_texture_fine: Product = {
   description:
     "NEXT TROWEL–ON TEXTURE FINE is a premium quality acrylic textured plaster finish formulated for trowel/steel float application giving your walls tactile with multidimensional height, width and depth. NEXT TROWEL–0N TEXTURE FINE is formulated from high quality materials that include special aggregates, pigments and extenders in a premium resin and fortified with diverse additives i.e. bactericides, algaecides and fungicides that combats attack both in wet and dry form. NEXT TROWEL–0N TEXTURE FINE is complimented by NEXTSHIELD TROWEL–0N FINISH COAT that provides double protection against the hash tropical weather conditions. NEXTSHIELD TROWEL–0N FINISH COAT comes in a variety of pastel and accent colours providing an arrays of hues to choose from. NEXT TROWEL–0N TEXTURE FINE can provide a myriads of texture finishes limited to one’s imagination i.e. smooth finish, knock – down finish, combing etc. to suit substrate type and desired depth.  NEXT TROWEL–0N TEXTURE FINE is suitable for exterior or interior use and can be applied on both new or previously painted substrates.",
   uri: "trowel_on_texture_fine",
-  image: "",
+  image: "/images/paint_thumbnails/Trowel-On-Texture-Fine-Bucket-thumb.png",
   type: "Decorative",
   sections: [sectionOne, section2, section3, section4, section5, section6],
 };

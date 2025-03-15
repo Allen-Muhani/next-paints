@@ -176,7 +176,7 @@ export const trowel_on_marble_stone_finish: Product = {
   description:
     "NEXT TROWEL–ON TEXTURE MARBLE STONE FINISH is a premium quality acrylic textured plaster finish formulated for trowel/steel float application giving your walls tactile with multidimensional height, width and depth. NEXT TROWEL–ON TEXTURE MARBLE STONE FINISH is formulated from high quality natural and tinted marble stones in a premium resin and fortified with diverse additives i.e. bactericides, algaecides and fungicides that combats attack both in wet and dry form. NEXT TROWEL–ON TEXTURE MARBLE STONE FINISH is available in variants of 0.6mm, 0.8mm, 1.0mm and 1.5mm. Can come in singular or multi – colour thereby accentuating design elements through imaginative paneling with differential contrast bands. NEXT TROWEL–ON TEXTURE MARBLE STONE FINISH is suitable for exterior or interior use and can be applied on both new or previously painted substrates.",
   uri: "trowel_on_marble_stone_finish",
-  image: "",
+  image: "/images/paint_thumbnails/Trowel-On-Marble-Stone-Finish-Bucket-thumb.png",
   type: "Decorative",
   sections: [sectionOne, section2, section3, section4, section5, section6, section7],
 };

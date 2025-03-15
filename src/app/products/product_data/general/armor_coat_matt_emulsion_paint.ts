@@ -214,7 +214,7 @@ export const armor_coat_matt_emulsion_paint: Product = {
   description:
     "NEXT ARMOR COAT is an exterior paint combining classic 100% acrylic formula and VIP technology to provide outstanding brushability and film build to protect substrates from harsh weather conditions. It contains a special combination of biocides, acticides, and fungicides to prevent bacterial, fungal, and algal growth, lightfast pigments to resist fading, and a flexible emulsion resin that prevents cracking, flaking, and peeling in harsh tropical weather.",
   uri: "armor_coat_matt_emulsion_paint",
-  image: "",
+  image: "/images/paint_thumbnails/Armor-Paint-Bucket-thumb.png",
   type: "Decorative",
   sections: [
     sectionOne,

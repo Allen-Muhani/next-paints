@@ -184,7 +184,7 @@ export const trowel_on_texture_gritty: Product = {
   description:
     "NEXT TROWEL–ON TEXTURE GRITTY is a premium quality acrylic textured plaster finish formulated for trowel/steel float application giving your walls tactile with multidimensional height, width and depth. NEXT TROWEL–ON TEXTURE GRITTY is formulated from high quality materials that include special aggregates, pigments and extenders in a premium resin and fortified with diverse additives i.e. bactericides, algaecides and fungicides that combats attack both in wet and dry form.  NEXT TROWEL–ON TEXTURE GRITTY is complimented by NEXTSHIELD TROWEL–ON FINISH COAT that provides double protection against the hash tropical weather conditions. NEXTSHIELD TROWEL–ON FINISH COAT comes in a variety of pastel and accent colours providing an arrays of hues to choose from. NEXT TROWEL–ON TEXTURE GRITTY also comes in gritty variances of 3.0mm, 2.5mm, 2.0mm, 1.5mm and 1.0mm to suit substrate type and desired depth.  NEXT TROWEL–ON TEXTURE GRITTY is suitable for exterior or interior use and can be applied on both new or previously painted substrates.",
   uri: "trowel_on_texture_gritty",
-  image: "",
+  image: "/images/paint_thumbnails/Trowel-On-Texture-Gritty-Bucket-thumb.png",
   type: "Decorative",
   sections: [sectionOne, section2, section3, section4, section5, section6, section7],
 };

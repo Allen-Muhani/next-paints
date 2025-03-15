@@ -200,7 +200,7 @@ export const wall_matt_matt_emulsion_paint: Product = {
   description:
     "Wall Matt Matt Emulsion Paint is a premium interior paint offering an ultra-matte, velvety finish that minimizes light reflection, ideal for creating serene, modern spaces. Its non-reflective surface expertly conceals wall imperfections like cracks or uneven textures, making it perfect for older or flawed surfaces. The formula ensures superior coverage, often requiring fewer coats, and balances durability with a washable surface suitable for low-traffic areas like bedrooms or dining rooms. Water-based and low in VOCs, it promotes healthier indoor air quality and allows easy cleanup. Quick-drying and adaptable to plaster, drywall, or previously painted walls, it simplifies application. While optimal for ceilings and calm interiors, high-moisture areas may require a specialized variant. Available in curated colors, it blends timeless elegance with practical performance.",
   uri: "wall_matt_matt_emulsion_paint",
-  image: "",
+  image: "/images/paint_thumbnails/Wall-matt-emuslion-paint-Bucket-thumb.png",
   type: "Decorative",
   sections: [
     sectionOne,

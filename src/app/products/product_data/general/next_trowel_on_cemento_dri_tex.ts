@@ -205,7 +205,7 @@ export const next_trowel_on_cemento_dri_tex: Product = {
   description:
     "Next Trowel-On Cemento Dri-Tex is the dry-mix alternative to traditional acrylic based architectural wall finishes. Next Trowel-On Cemento Dri-Tex is supplied as Off-White powder which is mixed on-site, applied by trowel, and then painted in the desired colour. Next Trowel-On Cemento Dri-Tex is supplied in 20kg bags and is simply mixed with Next Cemento Add-Mix to achieve a workable paste ready for application. The use of Next Trowel-On Cemento Dri-Tex will result in a material saving of approximately 50% when compared to comparative pre-mixed acrylic texture coatings.",
   uri: "next_trowel-next_trowel_on_cemento_dri_tex",
-  image: "",
+  image: "/images/paint_thumbnails/Trowel-On-Texture-Cemento-thumb-2.png",
   type: "Decorative",
   sections: [section1, section2, section3, section4, section5, section6, section7, section8, section9],
 };
