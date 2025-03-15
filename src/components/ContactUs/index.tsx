@@ -22,7 +22,7 @@ const ContactUsCard = () => {
                 {/* Contact Info Section */}
                 <div className="md:w-1/3 justify-center flex-col p-6">
 
-                    <p className="text-gray-600 mt-2 text-xl">We'd love to hear from you! Reach out to us through any of the following:</p>
+                    <p className="text-gray-600 mt-2 text-xl">We`d love to hear from you! Reach out to us through any of the following:</p>
                     <p className="mt-4 flex items-center text-gray-700"><Mail className="mr-2" /> {EmailAddress}</p>
                     <p className="mt-2 flex items-center text-gray-700"><Phone className="mr-2" /> {PhoneNumber1}</p>
                     <p className="mt-2 flex items-center text-gray-700"><Phone className="mr-2" /> {PhoneNumber2}</p>

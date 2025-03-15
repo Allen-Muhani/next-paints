@@ -19,7 +19,7 @@ const client = mg.client({
  * Send aemails to a specific address with mail gun.
  * @param emailData details required to send the email.
  */
-const sendEmail = async (emailData: MailData) => {
+export const sendEmail = async (emailData: MailData) => {
   const response = await client.messages.create(
     "your-domain.com",
     emailData as MailgunMessageData
