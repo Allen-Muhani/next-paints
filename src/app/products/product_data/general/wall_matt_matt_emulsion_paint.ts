@@ -133,55 +133,61 @@ const section9: ProductSection = {
       key: "Product Ref",
       value: "VIP Series",
       valueType: "paragraph",
+      footer: undefined
     },
     {
       key: "Generic Type",
       value: "100% Acrylic Emulsion",
       valueType: "paragraph",
+      footer: undefined
     },
     {
       key: "Color Ranges",
-      value:
-        "Available in >1,000’s colours tinted from Pastel, Tint, Deep, and Accent bases, using a variety of fandecks.",
+      value: "Available in >1,000’s colours tinted from Pastel, Tint, Deep, and Accent bases, using a variety of fandecks.",
       valueType: "paragraph",
+      footer: undefined
     },
     {
       key: "Pack Sizes",
       value: "1, 4 and 20L",
       valueType: "paragraph",
+      footer: undefined
     },
     {
       key: "Flash Point",
       value: "N/A",
       valueType: "paragraph",
+      footer: undefined
     },
     {
-        key: "Pot Life",
-        value: "N/A",
-        valueType: "paragraph",
-      },
+      key: "Pot Life",
+      value: "N/A",
+      valueType: "paragraph",
+      footer: undefined
+    },
     {
       key: "Drying Time",
       value: "Touch Dry – 20 minutes; Hard Dry – 2-4 Hours",
       valueType: "paragraph",
+      footer: undefined
     },
     {
       key: "Spreading Rate",
-      value:
-        "10 – 12 Sqm/L per coat depending on porosity and texture of surface and application method.",
+      value: "10 – 12 Sqm/L per coat depending on porosity and texture of surface and application method.",
       valueType: "paragraph",
+      footer: undefined
     },
     {
       key: "Application Methods",
-      value:
-        "By brush, roller, or spray. Do NOT apply in rainy weather or late evening.",
+      value: "By brush, roller, or spray. Do NOT apply in rainy weather or late evening.",
       valueType: "paragraph",
+      footer: undefined
     },
     {
       key: "Transportation & Storage",
-      value:
-        "Do not use or store in extremes of temperature and protect from frost. To prevent spillage, please store and transport upright.",
-      valueType: "",
+      value: "Do not use or store in extremes of temperature and protect from frost. To prevent spillage, please store and transport upright.",
+      valueType: "paragraph",
+      footer: undefined
     },
   ],
 };
@@ -194,7 +200,7 @@ export const wall_matt_matt_emulsion_paint: Product = {
   description:
     "Wall Matt Matt Emulsion Paint is a premium interior paint offering an ultra-matte, velvety finish that minimizes light reflection, ideal for creating serene, modern spaces. Its non-reflective surface expertly conceals wall imperfections like cracks or uneven textures, making it perfect for older or flawed surfaces. The formula ensures superior coverage, often requiring fewer coats, and balances durability with a washable surface suitable for low-traffic areas like bedrooms or dining rooms. Water-based and low in VOCs, it promotes healthier indoor air quality and allows easy cleanup. Quick-drying and adaptable to plaster, drywall, or previously painted walls, it simplifies application. While optimal for ceilings and calm interiors, high-moisture areas may require a specialized variant. Available in curated colors, it blends timeless elegance with practical performance.",
   uri: "wall_matt_matt_emulsion_paint",
-  image: "",
+  image: "/images/paint_thumbnails/Wall-matt-emuslion-paint-Bucket-thumb.png",
   type: "Decorative",
   sections: [
     sectionOne,

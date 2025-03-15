@@ -1,15 +1,12 @@
 import React from "react";
 import { Product } from "./product_data/types";
 import Link from "next/link";
-import { randomUUID } from "crypto";
-
 
 const ProductCard = ({ product }: { product: Product }) => {
     return (
-        // TODO: Remove random UUID
         <div className="bg-gray-100 shadow-lg rounded-lg p-5">
             <img
-                src="/images/paint_thumbnails/Wall-Sheen-Silk-Emulsion-Paint-Bucket-thumb-300x300.png"
+                src={product.image.valueOf()}
                 alt={product.name.valueOf()}
                 className="w-full h-60 object-cover rounded-lg mb-4"
             />

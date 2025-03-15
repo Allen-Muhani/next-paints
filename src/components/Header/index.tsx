@@ -37,8 +37,6 @@ export default function Navbar() {
 
   return (
     <>
-      {/* TODO: See what to do with this. */}
-      {/* <div><button>allenmuhani@gmail.com</button><button>+254791725651</button></div> */}
       <nav
         className={clsx(
           'fixed top-0 left-0 w-full transition-all duration-300 z-50',
@@ -68,7 +66,6 @@ export default function Navbar() {
             </div>
 
             <div className="hidden md:flex  flex items-center justify-end pr-16 lg:pr-0">
-              {/* TODO: change this to button and style it with a different unique style to capture attention */}
               <OrderButton></OrderButton>
             </div>
 
