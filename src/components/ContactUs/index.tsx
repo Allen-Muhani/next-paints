@@ -14,7 +14,7 @@ const ContactUsCard = () => {
                         <input type="text" placeholder="Your Name" className="w-full p-2 border border-gray-300 rounded-lg" />
                         <input type="email" placeholder="Your Email" className="w-full p-2 border border-gray-300 rounded-lg" />
                         <input type="text" placeholder="Your Phone Number" className="w-full p-2 border border-gray-300 rounded-lg" />
-                        <textarea placeholder="Your Message / Quote Request" className="w-full p-2 border border-gray-300 rounded-lg" rows="3"></textarea>
+                        <textarea placeholder="Your Message / Quote Request" className="w-full p-2 border border-gray-300 rounded-lg" rows={3}></textarea>
                         <button type="submit" className="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600">Send Message</button>
                     </form>
                 </div>
