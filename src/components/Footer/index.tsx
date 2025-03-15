@@ -3,8 +3,12 @@ import { Mail, Phone } from "lucide-react";
 import Image from 'next/image';
 import { FaWhatsapp, FaInstagram, FaFacebook, FaTwitter, FaTiktok } from "react-icons/fa";
 import { EmailAddress, PhoneNumber1, PhoneNumber2, WhatsUpLink } from "@/utils/constants/contacts";
+import { product_data } from "@/app/products/product_data/product.data";
+
+const products = product_data;
 
 const Footer = () => {
+
     return (
         <footer className="bg-primary text-secondary py-10 px-6">
             <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -23,14 +27,9 @@ const Footer = () => {
                 <div>
                     <h3 className="text-lg font-semibold">Products</h3>
                     <ul className="mt-2 space-y-2">
-                        <li><a href="#" className="text-gray-400 hover:text-white">Wall sheen silk emulsion paint</a></li>
-                        <li><a href="#" className="text-gray-400 hover:text-white">Wall matt emulsion paint</a></li>
-                        <li><a href="#" className="text-gray-400 hover:text-white">Aqua Undercoat Matt emulsion paint</a></li>
-                        <li><a href="#" className="text-gray-400 hover:text-white">Trowel-On Texture Fine</a></li>
-                        <li><a href="#" className="text-gray-400 hover:text-white">Trowel-On Texture Gritty</a></li>
-                        <li><a href="#" className="text-gray-400 hover:text-white">Trowel-On Marble Stone Finish</a></li>
-                        <li><a href="#" className="text-gray-400 hover:text-white">Armor Coat Matt Emulsion Paint</a></li>
-                        <li><a href="#" className="text-gray-400 hover:text-white">Trowel-On Texture Cemento</a></li>
+                        {products.map((product, index) => (
+                            <li key={`${index}-footer-products`}><a href={"/products/" + product.uri} className="text-gray-400 hover:text-white">{product.name}</a></li>
+                        ))}
                     </ul>
                 </div>
 
