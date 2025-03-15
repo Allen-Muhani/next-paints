@@ -1,4 +1,5 @@
 import { aqua_undercoat_matt_emulsion_paint } from "./general/aqua_undercoat_matt_emulsion_paint";
+import { armor_coat_matt_emulsion_paint } from "./general/armor_coat_matt_emulsion_paint";
 import { trowel_on_marble_stone_finish } from "./general/trowel_on_marble_stone_finish";
 import { trowel_on_texture_fine } from "./general/trowel_on_texture_fine";
 import { trowel_on_texture_gritty } from "./general/trowel_on_texture_gritty";
@@ -12,4 +13,5 @@ export const product_data = [
   trowel_on_texture_gritty,
   trowel_on_texture_fine,
   trowel_on_marble_stone_finish,
+  armor_coat_matt_emulsion_paint,
 ];
