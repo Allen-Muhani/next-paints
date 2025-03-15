@@ -2,6 +2,7 @@ export type TableData = {
   key: String;
   value: String | Array<String>;
   valueType: "paragraph" | "bullets" | "numbered" | "";
+  footer: String | undefined;
 };
 export type ProductSection = {
   index: Number;

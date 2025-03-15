@@ -77,60 +77,67 @@ const section5: ProductSection = {
       key: "Density",
       value: "1.4 – 1.5",
       valueType: "paragraph",
+      footer: undefined
     },
     {
       key: "% SOLIDS",
       value: "60 – 70",
       valueType: "paragraph",
+      footer: undefined
     },
     {
       key: "THINNING",
-      value:
-        "Can be thinned to 20% using clean tap water when applying using a brush or roller. Spray method can take up to 20% thinning but this shall require 3 – 4 coats",
+      value: "Can be thinned to 20% using clean tap water when applying using a brush or roller. Spray method can take up to 20% thinning but this shall require 3 – 4 coats",
       valueType: "paragraph",
+      footer: undefined
     },
     {
       key: "APPLICATION",
       value: "By brush, roller or spray",
       valueType: "paragraph",
+      footer: undefined
     },
     {
       key: "CLEANING",
       value: "Clean tools and containers immediately using clean water.",
       valueType: "paragraph",
+      footer: undefined
     },
     {
       key: "SPREADING CAPACITY",
-      value:
-        "6 – 7 m²/l for 2 coats.  <br/> These spreading capacities are derived from our own laboratory conditions and substrates and may vary from those of actual substrates. Substrate profile and porosity will greatly impact on coverage.",
+      value: "6 – 7 m²/l for 2 coats.  <br/> These spreading capacities are derived from our own laboratory conditions and substrates and may vary from those of actual substrates. Substrate profile and porosity will greatly impact on coverage.",
       valueType: "paragraph",
+      footer: undefined
     },
     {
       key: "Drying Time",
       value: "Touch Dry – 20 minutes; Hard Dry – 2-4 Hours",
       valueType: "paragraph",
+      footer: undefined
     },
     {
       key: "Spreading Rate",
-      value:
-        "2 – 3 Hours with recoating after 4 hours <br/> NOTE: AMBIENT TEMPERATURES DURING APPLICATION WILL GREATELY DETERMINE DRYING TIMES. LOWER TEMPERATURES DECREASES DRYING TIMES WHILST HIGHER TEMPERATURES ACCELERATES DRYING.",
+      value: "2 – 3 Hours with recoating after 4 hours <br/> NOTE: AMBIENT TEMPERATURES DURING APPLICATION WILL GREATELY DETERMINE DRYING TIMES. LOWER TEMPERATURES DECREASES DRYING TIMES WHILST HIGHER TEMPERATURES ACCELERATES DRYING.",
       valueType: "paragraph",
+      footer: undefined
     },
     {
       key: "DRYING TIME",
-      value:
-        "By brush, roller, or spray. Do NOT apply in rainy weather or late evening.",
+      value: "By brush, roller, or spray. Do NOT apply in rainy weather or late evening.",
       valueType: "paragraph",
+      footer: undefined
     },
     {
       key: "CONSISTENCY & COLOUR",
       value: "White flowing consistency",
       valueType: "paragraph",
+      footer: undefined
     },
     {
       key: "PACK SIZE",
       value: "1l, 4l, 10l and 20l",
       valueType: "paragraph",
+      footer: undefined
     },
     {
       key: "SHELVE LIVE",
@@ -139,12 +146,13 @@ const section5: ProductSection = {
         "Opened containers to be tightly re-sealed to avoid entrapping air. Product to be used up within a short period once opened.",
       ],
       valueType: "bullets",
+      footer: undefined
     },
     {
       key: "TRANSPORT & STACKING",
-      value:
-        "Water based with very low V.O.C levels. Can easily be transported because of its Non-Hazardous nature. DO NOT STACK MORE THAN 4 BUCKETS",
+      value: "Water based with very low V.O.C levels. Can easily be transported because of its Non-Hazardous nature. DO NOT STACK MORE THAN 4 BUCKETS",
       valueType: "paragraph",
+      footer: undefined
     },
   ],
 };

@@ -136,50 +136,59 @@ const section9: ProductSection = {
       key: "Product Ref",
       value: "VIP Series",
       valueType: "paragraph",
+      footer: undefined,
     },
     {
       key: "Generic Type",
       value: "100% Acrylic Emulsion",
       valueType: "paragraph",
+      footer: undefined,
     },
     {
       key: "Color Ranges",
       value:
         "Available in >1,000’s colours tinted from Pastel, Tint, Deep, and Accent bases, using a variety of fandecks.",
       valueType: "paragraph",
+      footer: undefined,
     },
     {
       key: "Pack Sizes",
       value: "1, 4 and 20L",
       valueType: "paragraph",
+      footer: undefined,
     },
     {
       key: "Flash Point",
       value: "N/A",
       valueType: "paragraph",
+      footer: undefined,
     },
     {
       key: "Drying Time",
       value: "Touch Dry – 20 minutes; Hard Dry – 2-4 Hours",
       valueType: "paragraph",
+      footer: undefined,
     },
     {
       key: "Spreading Rate",
       value:
         "10 – 12 Sqm/L per coat depending on porosity and texture of surface and application method.",
       valueType: "paragraph",
+      footer: undefined,
     },
     {
       key: "Application Methods",
       value:
         "By brush, roller, or spray. Do NOT apply in rainy weather or late evening.",
       valueType: "paragraph",
+      footer: undefined,
     },
     {
       key: "Transportation & Storage",
       value:
         "Do not use or store in extremes of temperature and protect from frost. To prevent spillage, please store and transport upright.",
-      valueType: "",
+      valueType: "paragraph",
+      footer: undefined,
     },
   ],
 };
