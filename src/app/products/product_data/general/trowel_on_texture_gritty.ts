@@ -51,8 +51,8 @@ const section4: ProductSection = {
 
 const section5: ProductSection = {
   index: 5,
-  title: "APPLICATION",
-  description: "SAFETY & HANDLING",
+  title: "SAFETY & HANDLING",
+  description: "",
   iterations: [
     "Keep out of reach of children",
     "Water based with very low V.O.C levels. Spillages to be washed off using water following local regulations.",
@@ -164,15 +164,27 @@ const section6: ProductSection = {
   ],
 };
 
-export const trowel_on_exture_gritty: Product = {
+const section7: ProductSection = {
+  index: 7,
+  title: "DISCLAIMER",
+  description:
+    "All information contained herein is given in good faith, based on our specialized knowledge and experience. We reserve the right to effect changes to product and specification alike in the interest of product development and improving technology.",
+  iterations: [],
+  type: "paragraph",
+  footer: "",
+  table: [],
+};
+
+
+export const trowel_on_texture_gritty: Product = {
   id: 1,
   name: "Trowel-On Texture Gritty",
   briefDescription:
     "A premium quality acrylic textured plaster finish formulated for trowel/steel float application giving your walls tactile with multidimensional height, width and depth.",
   description:
     "NEXT TROWEL–ON TEXTURE GRITTY is a premium quality acrylic textured plaster finish formulated for trowel/steel float application giving your walls tactile with multidimensional height, width and depth. NEXT TROWEL–ON TEXTURE GRITTY is formulated from high quality materials that include special aggregates, pigments and extenders in a premium resin and fortified with diverse additives i.e. bactericides, algaecides and fungicides that combats attack both in wet and dry form.  NEXT TROWEL–ON TEXTURE GRITTY is complimented by NEXTSHIELD TROWEL–ON FINISH COAT that provides double protection against the hash tropical weather conditions. NEXTSHIELD TROWEL–ON FINISH COAT comes in a variety of pastel and accent colours providing an arrays of hues to choose from. NEXT TROWEL–ON TEXTURE GRITTY also comes in gritty variances of 3.0mm, 2.5mm, 2.0mm, 1.5mm and 1.0mm to suit substrate type and desired depth.  NEXT TROWEL–ON TEXTURE GRITTY is suitable for exterior or interior use and can be applied on both new or previously painted substrates.",
-  uri: "trowel_on_exture_gritty",
+  uri: "trowel_on_texture_gritty",
   image: "",
   type: "Decorative",
-  sections: [sectionOne, section2, section3, section4, section5, section6],
+  sections: [sectionOne, section2, section3, section4, section5, section6, section7],
 };
