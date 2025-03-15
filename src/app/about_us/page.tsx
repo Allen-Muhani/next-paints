@@ -5,7 +5,7 @@ import WhoAreWe from "@/components/WhoAreWe";
 import WhyChooseUs from "@/components/WhyChooseUs";
 
 // 
-const AboutUsPage = () => {
+export default function AboutUsPage() {
   return (
     <>
       <div className="pt-25">
@@ -19,5 +19,4 @@ const AboutUsPage = () => {
   );
 };
 
-export default AboutUsPage;
 
