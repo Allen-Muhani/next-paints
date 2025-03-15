@@ -1,26 +1,26 @@
 export type TableData = {
-  key: String;
-  value: String | Array<String>;
+  key: string;
+  value: string | Array<string>;
   valueType: "paragraph" | "bullets" | "numbered" | "";
-  footer: String | undefined;
+  footer: string | undefined;
 };
 export type ProductSection = {
-  index: Number;
-  title: String;
-  description: String;
-  iterations: Array<String>;
+  index: number;
+  title: string;
+  description: string;
+  iterations: Array<string>;
   table: Array<TableData>;
   type: "paragraph" | "bullets" | "numbered" | "";
-  footer: String;
+  footer: string;
 };
 
 export type Product = {
-  id: Number;
-  name: String;
-  briefDescription: String;
-  description: String;
-  uri: String;
-  image: String;
+  id: number;
+  name: string;
+  briefDescription: string;
+  description: string;
+  uri: string;
+  image: string;
   type: "Decorative" | "Commercial" | "Surface Coating";
   sections: Array<ProductSection>;
 };

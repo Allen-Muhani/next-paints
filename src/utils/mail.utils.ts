@@ -3,10 +3,10 @@ import Mailgun from "mailgun.js";
 import { MailgunMessageData } from "mailgun.js/definitions";
 
 export type MailData = {
-  from: String;
-  to: String;
-  subject: String;
-  text: String;
+  from: string;
+  to: string;
+  subject: string;
+  text: string;
 };
 
 const mg = new Mailgun(formData);

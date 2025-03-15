@@ -1,7 +1,7 @@
 import { randomUUID } from "crypto";
 import React from "react";
 
-const NumberedList = ({ items }: { items: Array<String> }) => {
+const NumberedList = ({ items }: { items: Array<string> }) => {
 
     const uuid = randomUUID().toLowerCase();
 
