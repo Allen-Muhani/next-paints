@@ -186,7 +186,7 @@ const section9: ProductSection = {
     {
       key: "Transportation & Storage",
       value: "Do not use or store in extremes of temperature and protect from frost. To prevent spillage, please store and transport upright.",
-      valueType: "",
+      valueType: "paragraph",
       footer: undefined
     },
   ],
