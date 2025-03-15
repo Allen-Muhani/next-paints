@@ -14,7 +14,7 @@ const section2: ProductSection = {
   index: 2,
   title: "NEW SUBSTRATE",
   description:
-    "Substrate should be prepared appropriately to ensure that it is clean, dry and sound. Always check to ensure cementitious plastered substrates profile is smooth and even, and to the recommended hardness to avoid chipping of sand particles on the surface. NEXT TROWEL–ON TEXTURE GRITTY is self-priming and therefore no need of suitable primer is needed. However, chipping and flaking plastered substrates can be fortified with a suitable primer, notably NEXT MASONRY PRIMER.",
+    "Substrate should be prepared appropriately to ensure that it is clean, dry and sound. Always check to ensure cementitious plastered substrates profile is smooth and even, and to the recommended hardness to avoid chipping of sand particles on the surface. It highly recommended to precede NEXT TROWEL–ON TEXTURE MARBLE STONE FINISH with NEXT MASONRY PRIMER tinted to match the dominant marble stone finish colour.",
   iterations: [],
   type: "paragraph",
   footer: "",
@@ -23,23 +23,33 @@ const section2: ProductSection = {
 
 const section3: ProductSection = {
   index: 3,
-  title: "APPLICATION",
-  description: "",
-  iterations: [
-    "NEXT TROWEL–0N TEXTURE FINE is strictly trowel/steel float applied. Texture film thickness should not exceed 1.0mm to avoid sagging and/or cracking.",
-    "Bottom – up application is encouraged to avoid spillage and wastage. The trowel/steel float should be held at an angle of around 10-15mm whilst reducing the risk of dragging and scrapping.",
-    "It is encouraged to use a notched trowel to achieve a uniform plaster thickness and ease of finishing. Float the texture removing excess materials and design to the desired texture depth and pattern.",
-    "Use a specialized polystyrene plastic float to create the desired scratch finish texture to enhance depth in the texture.",
-    "Once the textured plaster is dry after about 24 hours, apply two coats of NEXTSHIELD TROWEL–0N FINISH COAT using a brush, roller or spray to obtain a seamless finish and rich colour. NEXTSHIELD TROWEL–0N FINISH COAT should be allowed to cure between coats for better results.",
-    "OPTIONAL. A coat of NEXTSHIELD SEALER can be applied to enhance sheen and depth of the applied decorative plaster. NEXT DÉCOR PEARL METALLIC can also be used to give ancient metallic look for interiors.",
-  ],
-  type: "numbered",
+  title: "REDECORATION",
+  description:
+    "Old painted substrates have to be free from loose flaking paint, dirt and grease. Cracks and defective substrates have to be filled accordingly. All redecoration substrates have to be preceded with NEXT MASONRY PRIMER NEXT MASONRY PRIMER tinted to match the dominant marble stone finish colour before the application of NEXT TROWEL–ON TEXTURE MARBLE STONE FINISH.",
+  iterations: [],
+  type: "bullets",
   footer: "",
   table: [],
 };
 
 const section4: ProductSection = {
   index: 4,
+  title: "APPLICATION",
+  description: "",
+  iterations: [
+    "NEXT TROWEL–ON TEXTURE MARBLE STONE FINISH is strictly trowel/steel float applied. Texture film thickness is governed by the size of the marble stones i.e. 2.0mm, 1.5mm or 1.0mm.",
+    "Bottom – up application is encouraged to avoid spillage and wastage. The trowel/steel float should be held at an angle of around 10-15mm whilst reducing the risk of dragging and scrapping.",
+    "Ensure bumps are felt during application, a sign that the coarsest grits are reached. Float the texture removing excess materials thereby exposing the grits on the surface.",
+    "Use a specialized polystyrene plastic float to create the desired scratch finish texture to enhance depth in the texture.",
+    "NEXT TROWEL–ON TEXTURE MARBLE STONE FINISH  is self-sealing and this shall ensure sparkling when illuminated with light. Re-sealing with NEXTSHIELD SEALER will however subdue the sparkles",
+  ],
+  type: "numbered",
+  footer: "",
+  table: [],
+};
+
+const section5: ProductSection = {
+  index: 5,
   title: "SAFETY & HANDLING",
   description: "",
   iterations: [
@@ -53,8 +63,8 @@ const section4: ProductSection = {
   table: [],
 };
 
-const section5: ProductSection = {
-  index: 5,
+const section6: ProductSection = {
+  index: 6,
   title: "Technical Data",
   description: "",
   iterations: [],
@@ -63,7 +73,7 @@ const section5: ProductSection = {
   table: [
     {
       key: "FINISH",
-      value: "Fine textured base coat decorative plaster.",
+      value: "Gritty Marble Finish",
       valueType: "paragraph",
       footer: undefined,
     },
@@ -93,7 +103,7 @@ const section5: ProductSection = {
     },
     {
       key: "SPREADING CAPACITY",
-      value: ["2.0 – 3.0 kg/m²"],
+      value: ["2.0mm: 3.0 – 3.5 kg/m²", "1.5mm: 2.5 – 3.0 kg/m²", "1.0mm: 2.0 – 2.5 kg/m²"],
       valueType: "bullets",
       footer:
         "These spreading capacities are derived from our own laboratory conditions and substrates and may vary from those of actual substrates. Substrate profile, applicators skills and design type will also greatly impact on coverage.",
@@ -118,13 +128,13 @@ const section5: ProductSection = {
     },
     {
       key: "CONSISTENCY & COLOUR",
-      value: "Off-White to creamish paste",
+      value: "Paste form. Colours made on order",
       valueType: "paragraph",
       footer: undefined,
     },
     {
       key: "PACK SIZE",
-      value: "6KG & 30KG",
+      value: "6KG, 15KG & 30KG",
       valueType: "paragraph",
       footer: undefined,
     },
@@ -140,15 +150,15 @@ const section5: ProductSection = {
     {
       key: "TRANSPORT & STACKING",
       value:
-        "NEXT TROWEL–ON TEXTURE FINE can easily be transported because of its Non-Hazardous nature. DO NOT STACK MORE THAN 4 BUCKETS",
+        "NEXT TROWEL–ON TEXTURE MARBLE STONE FINISH can easily be transported because of its Non-Hazardous nature. DO NOT STACK MORE THAN 4 BUCKETS",
       valueType: "paragraph",
       footer: undefined,
     },
   ],
 };
 
-const section6: ProductSection = {
-  index: 6,
+const section7: ProductSection = {
+  index: 7,
   title: "DISCLAIMER",
   description:
     "All information contained herein is given in good faith, based on our specialized knowledge and experience. We reserve the right to effect changes to product and specification alike in the interest of product development and improving technology.",
@@ -158,15 +168,15 @@ const section6: ProductSection = {
   table: [],
 };
 
-export const trowel_on_texture_fine: Product = {
+export const trowel_on_marble_stone_finish: Product = {
   id: 1,
-  name: "Trowel-On Texture Fine",
+  name: "Trowel-On Marble Stone Finish",
   briefDescription:
     "A premium quality acrylic textured plaster finish formulated for trowel/steel float application giving your walls tactile with multidimensional height, width and depth.",
   description:
-    "NEXT TROWEL–ON TEXTURE FINE is a premium quality acrylic textured plaster finish formulated for trowel/steel float application giving your walls tactile with multidimensional height, width and depth. NEXT TROWEL–0N TEXTURE FINE is formulated from high quality materials that include special aggregates, pigments and extenders in a premium resin and fortified with diverse additives i.e. bactericides, algaecides and fungicides that combats attack both in wet and dry form. NEXT TROWEL–0N TEXTURE FINE is complimented by NEXTSHIELD TROWEL–0N FINISH COAT that provides double protection against the hash tropical weather conditions. NEXTSHIELD TROWEL–0N FINISH COAT comes in a variety of pastel and accent colours providing an arrays of hues to choose from. NEXT TROWEL–0N TEXTURE FINE can provide a myriads of texture finishes limited to one’s imagination i.e. smooth finish, knock – down finish, combing etc. to suit substrate type and desired depth.  NEXT TROWEL–0N TEXTURE FINE is suitable for exterior or interior use and can be applied on both new or previously painted substrates.",
-  uri: "trowel_on_texture_fine",
+    "NEXT TROWEL–ON TEXTURE MARBLE STONE FINISH is a premium quality acrylic textured plaster finish formulated for trowel/steel float application giving your walls tactile with multidimensional height, width and depth. NEXT TROWEL–ON TEXTURE MARBLE STONE FINISH is formulated from high quality natural and tinted marble stones in a premium resin and fortified with diverse additives i.e. bactericides, algaecides and fungicides that combats attack both in wet and dry form. NEXT TROWEL–ON TEXTURE MARBLE STONE FINISH is available in variants of 0.6mm, 0.8mm, 1.0mm and 1.5mm. Can come in singular or multi – colour thereby accentuating design elements through imaginative paneling with differential contrast bands. NEXT TROWEL–ON TEXTURE MARBLE STONE FINISH is suitable for exterior or interior use and can be applied on both new or previously painted substrates.",
+  uri: "trowel_on_marble_stone_finish",
   image: "",
   type: "Decorative",
-  sections: [sectionOne, section2, section3, section4, section5, section6],
+  sections: [sectionOne, section2, section3, section4, section5, section6, section7],
 };
