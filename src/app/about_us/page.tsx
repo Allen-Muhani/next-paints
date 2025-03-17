@@ -9,7 +9,6 @@ export default function AboutUsPage() {
   return (
     <>
       <div className="pt-25">
-        {/* <ProductGrid></ProductGrid> */}
         <WhoAreWe></WhoAreWe>
         <WhyChooseUs></WhyChooseUs>
       </div>
