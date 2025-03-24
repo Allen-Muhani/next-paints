@@ -4,14 +4,14 @@ import NumberedList from '../components/numbered_lists';
 import StyledTable from '../components/styled_table';
 import { product_data } from '../product_data/product.data';
 import Footer from '@/components/Footer';
-import { randomUUID } from "crypto";
 
 type Params = Promise<{ id: string }>;
 
-async function ProductPage({ params }: { params: Params}) {
+export async function generateStaticParams() {
+    return product_data.map((product) => ({ id: product.uri }));
+}
 
-    const uuid = randomUUID().toLowerCase();
-
+async function ProductPage({ params }: { params: Params }) {
     // The await is necessary as it throws an error;
     const { id } = await params
     const product = product_data.find(item => item.uri.valueOf() === id)
@@ -42,7 +42,7 @@ async function ProductPage({ params }: { params: Params}) {
                             {product?.description} </p>
 
                         {product?.sections.map((section, index) => (
-                            <div key={`${index}-${uuid}`} className='ph-5'>
+                            <div key={`${index}`} className='ph-5'>
                                 <h2 className="text-xl font-semibold mt-4 mb-2">{section.title}</h2>
 
                                 {section.description !== "" && section.type === "paragraph" && (
