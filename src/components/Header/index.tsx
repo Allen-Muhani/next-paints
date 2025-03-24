@@ -8,6 +8,7 @@ import { Menu, X } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 import { WhatsUpLink } from '@/utils/constants/contacts';
+import { getUri } from '@/utils/uri.base.utils';
 
 const menuItems = ['About Us', 'Services', 'Products', 'FAQs'];
 
@@ -47,7 +48,7 @@ export default function Navbar() {
           <div className="flex justify-between items-center h-16">
             <div className="text-xl font-bold text-dark-blue-600">
               <Link href={'/'}>
-                <Image src="/images/logo/logo.png"
+                <Image src={getUri("/images/logo/logo.png")}
                   alt="logo"
                   width={120}
                   height={25}></Image>

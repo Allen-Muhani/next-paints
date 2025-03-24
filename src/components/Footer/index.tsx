@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { FaWhatsapp, FaInstagram, FaFacebook, FaTwitter, FaTiktok } from "react-icons/fa";
 import { EmailAddress, PhoneNumber1, PhoneNumber2, WhatsUpLink } from "@/utils/constants/contacts";
 import { product_data } from "@/app/products/product_data/product.data";
+import { getUri } from "@/utils/uri.base.utils";
 
 const products = product_data;
 
@@ -14,7 +15,7 @@ const Footer = () => {
             <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
                 {/* Company Info */}
                 <div>
-                    <Image src="/images/logo/logo_white.png"
+                    <Image src={`${getUri('/images/logo/logo_white.png')}`}
                         alt="logo"
                         width={120}
                         height={25}>

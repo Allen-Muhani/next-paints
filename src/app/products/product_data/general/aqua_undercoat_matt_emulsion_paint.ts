@@ -1,3 +1,4 @@
+import { getUri } from "@/utils/uri.base.utils";
 import { Product, ProductSection } from "../types";
 
 const sectionOne: ProductSection = {
@@ -176,7 +177,7 @@ export const aqua_undercoat_matt_emulsion_paint: Product = {
   description:
     "Aqua Undercoat is a high-performance, water-based primer designed to prepare interior and exterior surfaces for flawless topcoat finishes. Its fast-drying formula creates a smooth, adhesive base that enhances paint durability and color vibrancy. Ideal for use on plaster, drywall, wood, metal, and previously painted surfaces, it effectively seals porous materials, blocks stains (e.g., watermarks, nicotine, or tannin bleed), and prevents uneven absorption. The low-VOC, eco-friendly composition ensures minimal odor and safer indoor air quality, making it suitable for homes, schools, and commercial spaces. Resistant to cracking and peeling, it promotes long-lasting results in diverse climates. Easy to apply with brushes, rollers, or sprayers, Aqua Undercoat dries to a neutral, sandable finish within 1–2 hours, streamlining project timelines. Its mildew-inhibiting properties add extra protection in humid environments. A must-have for professionals and DIYers seeking a reliable, non-toxic foundation for walls, trim, or furniture.",
   uri: "aqua_undercoat_matt_emulsion_paint",
-  image: "/images/paint_thumbnails/Aqua-Undercoat-Bucket-thumb.png",
+  image: getUri("/images/paint_thumbnails/Aqua-Undercoat-Bucket-thumb.png"),
   type: "Decorative",
   sections: [sectionOne, section2, section3, section4, section5, section6],
 };

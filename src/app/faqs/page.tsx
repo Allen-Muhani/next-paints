@@ -1,3 +1,4 @@
+"use client";
 import ContactUsCard from "@/components/ContactUs";
 import FAQ from "@/components/FAQs";
 import Footer from "@/components/Footer";

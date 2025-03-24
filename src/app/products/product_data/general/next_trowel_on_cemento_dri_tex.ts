@@ -1,3 +1,4 @@
+import { getUri } from "@/utils/uri.base.utils";
 import { Product, ProductSection } from "../types";
 
 const section1: ProductSection = {
@@ -129,7 +130,8 @@ const section8: ProductSection = {
     },
     {
       key: "SPREADING CAPACITY",
-      value: ["2.0mm: 3.0 – 3.5 kg/m²",
+      value: [
+        "2.0mm: 3.0 – 3.5 kg/m²",
         "1.5mm: 2.5 – 3.0 kg/m²",
         "1.0mm: 2.0 – 2.5 kg/m²",
       ],
@@ -205,7 +207,19 @@ export const next_trowel_on_cemento_dri_tex: Product = {
   description:
     "Next Trowel-On Cemento Dri-Tex is the dry-mix alternative to traditional acrylic based architectural wall finishes. Next Trowel-On Cemento Dri-Tex is supplied as Off-White powder which is mixed on-site, applied by trowel, and then painted in the desired colour. Next Trowel-On Cemento Dri-Tex is supplied in 20kg bags and is simply mixed with Next Cemento Add-Mix to achieve a workable paste ready for application. The use of Next Trowel-On Cemento Dri-Tex will result in a material saving of approximately 50% when compared to comparative pre-mixed acrylic texture coatings.",
   uri: "next_trowel-next_trowel_on_cemento_dri_tex",
-  image: "/images/paint_thumbnails/Trowel-On-Texture-Cemento-thumb-2.png",
+  image: getUri(
+    "/images/paint_thumbnails/Trowel-On-Texture-Cemento-thumb-2.png"
+  ),
   type: "Decorative",
-  sections: [section1, section2, section3, section4, section5, section6, section7, section8, section9],
+  sections: [
+    section1,
+    section2,
+    section3,
+    section4,
+    section5,
+    section6,
+    section7,
+    section8,
+    section9,
+  ],
 };

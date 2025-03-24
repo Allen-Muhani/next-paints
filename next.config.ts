@@ -1,11 +1,14 @@
 import type { NextConfig } from "next";
+const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  output: "export", // Enables static export
-  images: { unoptimized: true }, // GitHub Pages does not support Next.js image optimization
-  basePath: "/next-paints", // Replace with your repo name
-  assetPrefix: "/next-paints/",
+  reactStrictMode: true,
+  images: {
+    unoptimized: true, // Disable default image optimization
+  },
+  assetPrefix: isProd ? "/next-paints/" : "",
+  basePath: isProd ? "/next-paints" : "",
+  output: "export",
 };
 
 export default nextConfig;

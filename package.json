@@ -1,4 +1,5 @@
 {
+  "homepage": "https://allen-muhani.github.io/next-paints",
   "name": "next-paints",
   "version": "0.1.0",
   "private": true,
@@ -7,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && gh-pages -d out"
+    "deploy": "set NODE_ENV=production && npm run build && gh-pages -d out"
   },
   "dependencies": {
     "clsx": "^2.1.1",

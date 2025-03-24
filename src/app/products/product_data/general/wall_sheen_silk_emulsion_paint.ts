@@ -1,3 +1,4 @@
+import { getUri } from "@/utils/uri.base.utils";
 import { Product, ProductSection } from "../types";
 
 const sectionOne: ProductSection = {
@@ -201,7 +202,9 @@ export const wall_sheen_silk_emulsion_paint: Product = {
   description:
     "Wall Sheen Silk Emulsion Paint is a high-quality, water-based interior paint that provides a smooth, silky finish with a subtle sheen. Known for its luxurious appearance, it enhances the beauty of walls while offering excellent durability. Its stain-resistant and washable properties make it an ideal choice for areas that experience regular use, as it can be easily wiped clean without damaging the surface. With a low-VOC formula, this paint is environmentally friendly and has minimal odor, making it safe for indoor application. It spreads evenly and provides good coverage, reducing the need for multiple coats. Additionally, its mold and mildew-resistant properties make it suitable for humid environments. Perfect for living rooms, bedrooms, hallways, and offices, Wall Sheen Silk Emulsion Paint combines elegance with practicality, making it a popular choice for both residential and commercial spaces.",
   uri: "wall_sheen_silk_emulsion_paint",
-  image: "/images/paint_thumbnails/Wall-Sheen-Silk-Emulsion-Paint-Bucket-thumb.png",
+  image: getUri(
+    "/images/paint_thumbnails/Wall-Sheen-Silk-Emulsion-Paint-Bucket-thumb.png"
+  ),
   type: "Decorative",
   sections: [
     sectionOne,
