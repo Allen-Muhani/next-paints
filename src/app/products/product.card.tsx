@@ -1,13 +1,15 @@
 import React from "react";
 import { Product } from "./product_data/types";
 import Link from "next/link";
+import { getUri } from "@/utils/uri.base.utils";
 
 const ProductCard = ({ product }: { product: Product }) => {
+    
     return (
         <div className="bg-gray-100 shadow-lg rounded-lg p-5">
             <img
-                src={product.image.valueOf()}
-                alt={product.name.valueOf()}
+                src={getUri(product.image)}
+                alt={product.name}
                 className="w-full h-60 object-cover rounded-lg mb-4"
             />
             <h3 className="text-xl font-semibold">{product.name}</h3>

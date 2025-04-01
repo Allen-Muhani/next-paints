@@ -67,7 +67,7 @@ export default function Navbar() {
             </div>
 
             <div className="hidden md:flex  flex items-center justify-end pr-16 lg:pr-0">
-              <OrderButton></OrderButton>
+              <OrderButton/>
             </div>
 
             {/* Menu button on the right of the screen on small devices */}
@@ -93,7 +93,7 @@ export default function Navbar() {
               </Link>
             ))}
             {/* Menu button on the right of the screen on small devices */}
-            <OrderButton></OrderButton>
+            <OrderButton/>
           </div>
         )}
       </nav>

@@ -13,10 +13,10 @@ const ProductsPage = () => {
   return (
     <>
       <div className="py-10">
-        <ProductGrid></ProductGrid>
+        <ProductGrid/>
       </div>
-      <ContactUsCard></ContactUsCard>
-      <Footer></Footer>
+      <ContactUsCard/>
+      <Footer/>
     </>
   );
 };
