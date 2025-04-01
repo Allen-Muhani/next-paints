@@ -1,7 +1,7 @@
 "use client";
 
 import Lottie from "lottie-react";
-import animationData from "../../../public/lottie_animations/color_pallet.json";
+import animationData from "../../lottie_animations/color_pallet.json";
 import { CheckCircle } from "lucide-react";
 
 export default function AboutUs() {

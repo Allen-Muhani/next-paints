@@ -2,7 +2,7 @@
 
 import Lottie from "lottie-react";
 import Link from "next/link";
-import animationData from "../../../public/lottie_animations/painter_at_work.json";
+import animationData from "../../lottie_animations/painter_at_work.json";
 import { WhatsUpLink } from "@/utils/constants/contacts";
 
 export default function Hero() {
