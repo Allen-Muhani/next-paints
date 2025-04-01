@@ -8,7 +8,7 @@ const ProductCard = ({ product }: { product: Product }) => {
     return (
         <div className="bg-gray-100 shadow-lg rounded-lg p-5">
             <img
-                src={getUri(product.image)}
+                src={product.image}
                 alt={product.name}
                 className="w-full h-60 object-cover rounded-lg mb-4"
             />

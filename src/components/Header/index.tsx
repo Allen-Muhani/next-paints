@@ -51,7 +51,7 @@ export default function Navbar() {
                 <Image src={getUri("/images/logo/logo.png")}
                   alt="logo"
                   width={120}
-                  height={25}></Image>
+                  height={25}/>
               </Link>
 
             </div>
