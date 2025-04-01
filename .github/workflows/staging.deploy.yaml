@@ -22,7 +22,9 @@ jobs:
         run: npm install --legacy-peer-deps
 
       - name: Configure Git
-        uses: fregante/setup-git-user@v2
+        uses: oleksiyrudenko/gha-git-credentials@v2-latest
+        with:
+          token: '${{ secrets.GIT_TOKEN }}'
 
       - name: Build and Export
         run: npm run deploy
@@ -32,6 +34,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.G_TOKEN }}
+          github_token: ${{ secrets.GIT_TOKEN }}
           publish_dir: ./out
           publish_branch: gh-pages-staging
