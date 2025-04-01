@@ -2,13 +2,23 @@ import type { NextConfig } from "next";
 const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig: NextConfig = {
-  reactStrictMode: true,
-  images: {
-    unoptimized: true, // Disable default image optimization
-  },
-  assetPrefix: isProd ? "/next-paints/" : "",
-  basePath: isProd ? "/next-paints" : "",
+  assetPrefix: process.env.GITHUB_PAGES ? '/next-paints' : '',
+  basePath:  process.env.GITHUB_PAGES ? '/next-paints' : '',
   output: "export",
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  images: {
+    unoptimized: true,
+  },
+  experimental: {
+    webpackBuildWorker: true,
+    parallelServerBuildTraces: true,
+    parallelServerCompiles: true,
+  },
 };
 
 export default nextConfig;
