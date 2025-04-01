@@ -8,11 +8,11 @@ import React from "react";
 export default function Home() {
   return (
     <>
-      <Hero></Hero>
-      <About></About>
-      <FeaturesBenefits></FeaturesBenefits>
-      <ContactUsCard></ContactUsCard>
-      <Footer></Footer>
+      <Hero/>
+      <About/>
+      <FeaturesBenefits/>
+      <ContactUsCard/>
+      <Footer/>
     </>
   );
 }
