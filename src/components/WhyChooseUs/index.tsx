@@ -1,6 +1,6 @@
 import React from "react";
 import Lottie from "lottie-react";
-import animationData from "../../../public/lottie_animations/why_us.json";
+import animationData from "../../lottie_animations/why_us.json";
 import { CheckCircle } from "lucide-react";
 
 const reasons = [
