@@ -22,8 +22,9 @@ jobs:
         run: npm install --legacy-peer-deps
       
       - name: Configure Git
-        uses: fregante/setup-git-user@v2
-
+        uses: oleksiyrudenko/gha-git-credentials@v2-latest
+        with:
+            token: '${{ secrets.GIT_TOKEN }}'
 
       - name: Build and Export
         run: npm run deploy
